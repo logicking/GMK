@@ -1,0 +1,127 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(LogickingEditorTemplatesList) {
+   canSaveDynamicFields = "0";
+   Enabled = "1";
+   isContainer = "1";
+   Profile = "GuiModelessDialogProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiWindowCtrl(LogickingEditorTemplatesListWindow) {
+      canSaveDynamicFields = "0";
+      Enabled = "1";
+      isContainer = "1";
+      Profile = "GuiWindowProfile";
+      HorizSizing = "right";
+      VertSizing = "top";
+      position = "5 56";
+      Extent = "250 400";
+      MinExtent = "250 400";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      Margin = "0 0 0 0";
+      Padding = "0 0 0 0";
+      AnchorTop = "1";
+      AnchorBottom = "0";
+      AnchorLeft = "1";
+      AnchorRight = "0";
+      resizeWidth = "0";
+      resizeHeight = "0";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "0";
+      canMaximize = "0";
+      minSize = "600 100";
+      EdgeSnap = "1";
+      text = "Object Templates List";
+      closeCommand = "LogickingEditor.toggleWindow(LogickingEditorTemplatesList);";
+
+      new GuiScrollCtrl() {
+         canSaveDynamicFields = "0";
+         Enabled = "1";
+         isContainer = "1";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "10 30";
+         Extent = "230 315";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         willFirstRespond = "1";
+         hScrollBar = "dynamic";
+         vScrollBar = "dynamic";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+
+         new GuiTreeViewCtrl(templatesListTree) {
+            canSaveDynamicFields = "0";
+            Profile = "LogicMechanicsTreeProfile";
+            Enabled = "1";
+            isContainer = "1";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "2 2";
+            Extent = "210 285";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            tabSize = "16";
+            textOffset = "8";
+            fullRowSelect = "0";
+            itemHeight = "24";
+            destroyTreeOnSleep = "1";
+            MouseDragging = "0";
+            MultipleSelections = "0";
+            DeleteObjectAllowed = "0";
+            DragToItemAllowed = "0";
+			AltCommand = " LogickingEditorTemplatesList.selectTemplate(); ";
+         };
+      };
+      new GuiButtonCtrl(acceptTemplateButton) {
+         canSaveDynamicFields = "0";
+         Enabled = "1";
+         isContainer = "0";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "25 355";
+         Extent = "90 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = " LogickingEditorTemplatesList.selectTemplate(); ";
+         hovertime = "1000";
+         text = "Accept";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         useMouseEvents = "0";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         Enabled = "1";
+         isContainer = "0";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "130 355";
+         Extent = "90 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Cancel";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         useMouseEvents = "0";
+         Command = " LogickingEditor.toggleWindow(LogickingEditorTemplatesList); ";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

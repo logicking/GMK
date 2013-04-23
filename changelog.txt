@@ -1,0 +1,154 @@
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.13 - 15.01.2013
+
+- Uploaded to GitHub
+- GMK T3D 2.0 support.
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.12 - 24.12.2011
+
+- GMK T3D 1.2 support.
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.11 - 09.07.2011
+
+- GMK T3D 1.1 support.
+- TGE and TGEA support dropped.
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.10 (Beta) - 27.04.2011
+
+- GMK T3D 1.1 preview support.
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.9 - 07.11.2010
+
+- GMK T3D version 1.1 beta 3 support
+- Build files and instructions for Visual Studio 2010
+- AiBot::attackParams bug fixed for all versions
+- GMK Editor bugs fixed
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.8 - 04.03.2010
+
+- GMK T3D version beta 1 support.
+- Physics Pack for T3D is changed to reuse functionality of stock T3D physics.
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.7 - 27.11.2009
+
+- GMK T3D version 1.1 alpha support
+- GMK T3D Physics Pack InteriorInstance compatibility
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.6 - 11.11.2009
+
+- GMK T3D version 1.0.1 support
+- GMK TGEA version 1.8.2 support
+- Removed versions for TGEA 1.7.1 and 1.8.1 you should email us to get these if you need.
+- TGE 1.5.2 sound player bug fixed
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.5 - 15.10.2009
+
+- GMK T3D version 1.0 support
+- Ragdoll naming bug
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.4 - 07.09.2009
+
+AI enhancement:
+- Teams assignement.
+- AI perception.
+- Guard functionality.
+
+- GMK T3D version demo game updated for advanced lighting usage.
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.3 - 21.08.2009
+
+- GMK T3D version updated to support T3D Beta 5.
+
+Bugs fixed:
+- Softbodies errors for T3D.
+- Key linking in openable.cs for all versions.
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.2 - 03.08.2009
+
+- GMK T3D version updated to support T3D Beta 4.
+- Added compiled exe files for all versions.
+
+Bugs fixed:
+- Small code fixes for all versions.
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.1 - 10.07.2009
+
+- GMK T3D version updated to support T3D Beta 3.
+
+Bugs fixed:
+- Soft bodies client/server appearance.
+- Editor 'Drop on ground' function for T3D terrain.
+- Double name adding in the Event Edit window in T3D.
+- 'Use' function bug for client/server (all versions).
+- Irregularities with ragdoll creation on client (all versions).
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.2.0 (major update)  - 15.06.2009
+
+- GMK T3D version is available.
+- Support for ACK male and female packs from BrokeAss Games.
+- Source files for models and interiors placed in separate folder.
+
+Physics Pack:
+- Soft bodies support for Bullet.
+- PhysX support for T3D.
+- Bullet updated to 2.75 beta
+
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.1.1 (minor update)  - 29.04.2009
+
+
+Physics Pack:
+- Terrain support for physics objects.
+- Constants name for shape types.
+- ODE support for TGE.
+- Drawing of physics objects in the editor.
+- Bug with remove/add object to physics scene while doing "save, restart and play"
+  from GMK editor fixed.
+
+CutScene Editor:
+- Priority of the paths in CutScene.
+- Enabling/disabling path in CutScene.
+- Small tweaks for editor usability.
+  
+GMK Editor:
+- Bug with renaming objects fixed.
+- Bug with selection of two or more objects.
+- Temporary SFXDescriptions are no longer added to .mis file.
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.1.0 (major update)  - 16.04.2009
+
+- Physics Pack addon ODE, BUllet support
+  -- rigidbodies
+  -- ragdoll
+  -- debug draw (for Bullet physics)
+
+- Cut Scene editor
+- UI modification
+- Keys items
+
+
+------------------------------------------------------------------------------
+Game Mechanic Kit v1.0.1 (minor update) - 16.03.2009
+
+- Usable items and player 'use' ability (usable.cs) 
+- Openable - a base class for objects that can be opened (openable.cs) 
+- Game object template for InventoryItem class 
+- Added categories 'Items' and 'Switches' (gameObjectCategories.cs)
+- Added sample object 'Locker'
+- Added sample object 'Switch'
+- Added new AiBot - elfBot.cs
+- Added 'Reload original and play' option in Editor

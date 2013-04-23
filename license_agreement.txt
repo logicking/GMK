@@ -1,0 +1,32 @@
+Copyright (c) 2009 Logicking.com
+
+Game Mechanics Kit (GMK) End User License Agreement (EULA)
+
+NOTICE—READ BEFORE INSTALLING OR USING THE “GAME MECHANICS KIT” SOFTWARE
+YOU SHOULD CAREFULLY READ THE FOLLOWING TERMS AND CONDITIONS BEFORE USING THIS PRODUCT.
+IF YOU DO NOT ACCEPT THESE TERMS AND CONDITIONS, YOU SHOULD NOT USE THIS PRODUCT.
+
+
+
+SOFTWARE LICENSE:
+
+You can use and modify "Game Mechanics Kit" for your game development. However you can't use "Game Mechanics Kit" to make product that competes with "Game Mechanics Kit" itself. That is you can't make another development kit or editor with this. You also can't release the source files.
+
+This product is being licensed, not sold, to you by Logicking.com. All rights in this product including source code, scripts, documentation, models, textures and other content remains the sole and exclusive property of Logicking.com.
+
+You can use "Game Mechanics Kit" under the terms of "Indie" EULA only in conjunction with "Indie" license of Torque Game Engine (TGE) or Torque Game Engine Advanced (TGEA). If you are using commercial licenses of TGE or TGEA you should obtain commercial license for "Game Mechanics Kit" as well.
+
+
+DISCLAIMER AND WARRANTY:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE 
+
+
+SUPPORT:
+If you have questions concerning this agreement please contact us via e-mail: logicking@logicking.com

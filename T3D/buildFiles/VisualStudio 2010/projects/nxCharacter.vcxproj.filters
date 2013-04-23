@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <ItemGroup>
+      <Filter Include="Source Files">
+         <UniqueIdentifier>{20a23d3c-dac4-4aaf-99ab-b4713909981c}</UniqueIdentifier>
+         <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
+      </Filter>
+      <Filter Include="Source Files\Program Files (x86)">
+         <UniqueIdentifier>{4be25f46-a035-4d90-8ecc-2592b98112e5}</UniqueIdentifier>
+      </Filter>
+      <Filter Include="Source Files\Program Files (x86)\NVIDIA PhysX SDK">
+         <UniqueIdentifier>{dc5c83a3-2bd8-4edb-90b7-38542f1379a6}</UniqueIdentifier>
+      </Filter>
+      <Filter Include="Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs">
+         <UniqueIdentifier>{4973b29e-e523-431f-8cd8-069fa983e1e5}</UniqueIdentifier>
+      </Filter>
+      <Filter Include="Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include">
+         <UniqueIdentifier>{98f05bca-5057-4544-be52-78f3d127a0d5}</UniqueIdentifier>
+      </Filter>
+      <Filter Include="Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src">
+         <UniqueIdentifier>{332c58ce-bfc2-4f16-bb76-539a46c5e9e6}</UniqueIdentifier>
+      </Filter>
+   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Torque.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+   <ItemGroup>
+      <ClCompile Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\src\BoxController.cpp">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\src\CapsuleController.cpp">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\src\CCTDebugRenderer.cpp">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\src\CharacterController.cpp">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\src\CharacterControllerCallbacks.cpp">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\src\CharacterControllerManager.cpp">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\src\Controller.cpp">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\src\NxCharacter.cpp">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\src\SweptBox.cpp">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\src\SweptCapsule.cpp">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src</Filter>
+      </ClCompile>
+      <ClCompile Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\src\SweptVolume.cpp">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src</Filter>
+      </ClCompile>
+   </ItemGroup>
+   <ItemGroup>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\BoxController.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\CapsuleController.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\CCTAllocator.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\CCTDebugRenderer.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\CharacterController.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\CharacterControllerManager.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\Controller.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\ControllerManager.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\NxBoxController.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\NxCapsuleController.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\NxCharacter.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\NxController.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\NxControllerManager.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\NxExtended.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\SweptBox.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\SweptCapsule.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+      <ClInclude Include="C:\Program Files (x86)\NVIDIA Corporation\NVIDIA PhysX SDK\v2.8.4_win\SDKs\NxCharacter\include\SweptVolume.h">
+         <Filter>Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include</Filter>
+      </ClInclude>
+   </ItemGroup>
+   <ItemGroup>
+   </ItemGroup>
+</Project>

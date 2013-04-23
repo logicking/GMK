@@ -1,0 +1,128 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(GameMechanicsSettings) {
+   canSaveDynamicFields = "0";
+   Enabled = "1";
+   isContainer = "1";
+   Profile = "GuiModelessDialogProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiWindowCtrl() {
+      canSaveDynamicFields = "0";
+      Enabled = "1";
+      isContainer = "1";
+      Profile = "GuiWindowProfile";
+      HorizSizing = "center";
+      VertSizing = "center";
+      position = "85 29";
+      Extent = "189 251";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      Margin = "0 0 0 0";
+      Padding = "0 0 0 0";
+      AnchorTop = "1";
+      AnchorBottom = "0";
+      AnchorLeft = "1";
+      AnchorRight = "0";
+      resizeWidth = "0";
+      resizeHeight = "0";
+      canMove = "1";
+      canClose = "0";
+      canMinimize = "0";
+      canMaximize = "0";
+      minSize = "50 50";
+      closeCommand = "Canvas.popDialog(GameMechanicsSettings);";
+      EdgeSnap = "1";
+      text = "GameMechanicsKit Settings";
+
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         Enabled = "1";
+         isContainer = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "92 214";
+         Extent = "80 20";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         Command = "Canvas.popDialog(GameMechanicsSettings);";
+         hovertime = "1000";
+         text = "OK";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         useMouseEvents = "0";
+      };
+      new GuiControl() {
+         canSaveDynamicFields = "0";
+         Enabled = "1";
+         isContainer = "1";
+         Profile = "GuiWindowProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "7 27";
+         Extent = "173 165";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+
+         new GuiCheckBoxCtrl() {
+            canSaveDynamicFields = "0";
+            Enabled = "1";
+            isContainer = "0";
+            Profile = "GuiCheckBoxProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "10 10";
+            Extent = "200 24";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            Variable = "$pref::GameMechaniksKit::startStopGmkWithMissionEditor";
+            Command = "$pref::GameMechaniksKit::startStopGmkWithMissionEditor = $ThisControl.getValue();";
+            tooltipprofile = "GuiToolTipProfile";
+            ToolTip = "Start GameMechanicsKit automaticaly with WorldEditor.";
+            hovertime = "1000";
+            text = "Start automaticaly";
+            groupNum = "-1";
+            buttonType = "ToggleButton";
+            useMouseEvents = "0";
+            useInactiveState = "0";
+         };
+         new GuiCheckBoxCtrl() {
+            canSaveDynamicFields = "0";
+            Enabled = "1";
+            isContainer = "0";
+            Profile = "GuiCheckBoxProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "10 37";
+            Extent = "200 24";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            Variable = "$pref::GameMechaniksKit::askAboutReloadMission";
+            Command = "$pref::GameMechaniksKit::askAboutReloadMission = $ThisControl.getValue();";
+            tooltipprofile = "GuiToolTipProfile";
+            ToolTip = "Ask reload before editing.";
+            hovertime = "1000";
+            text = "Ask reload";
+            groupNum = "-1";
+            buttonType = "ToggleButton";
+            useMouseEvents = "0";
+            useInactiveState = "0";
+         };
+      };
+   };
+};
+//--- OBJECT WRITE END ---
